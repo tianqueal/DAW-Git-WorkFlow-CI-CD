@@ -1,16 +1,18 @@
 # Manual Git
 
+Git es un sistema de control de versiones distribuido que permite realizar un seguimiento de los cambios en archivos a lo largo del tiempo, coordinar el trabajo con otras personas y revertir los archivos a estados anteriores cuando sea necesario. Es una herramienta esencial para cualquier desarrollador de software o equipo de desarrollo colaborativo.
+
 ## [Setup y Configuración](#setup-y-configuración-1)
 
 - git
 - config
 
-## Getting and Creating Projects
+## [Obtención y creación de proyectos](#obtencion-y-creacion-de-proyectos-1)
 
 - init
 - clone
 
-## Basic Snapshotting
+## [Instantáneas básicas](#instantáneas-básicas-1)
 
 - add
 - status
@@ -18,7 +20,7 @@
 - commit
 - reset
 
-## Branching and Merging
+## [Ramificación y fusión](#ramificación-y-fusión-1)
 
 - branch
 - checkout
@@ -28,18 +30,18 @@
 - tag
 - stash
 
-## Sharing and Updating
+## [Compartir y actualizar](#compartir-y-actualizar-1)
 
 - fetch
 - pull
 - push
 - remote
 
-## Inspection and Comparison
+## [Inspección y comparación](#inspección-y-comparación-1)
 
 - diff
 
-## Patching
+## [Patching](#patching-1)
 
 - cherry-pick
 
@@ -50,6 +52,7 @@
 | Comando | Descripción |
 |---------|-------------|
 | `git -v` `git --version`|Muestra la versión actual de Git instalada en el sistema|
+|`git -config [--global]`||
 
 ## Obtención y creación de proyectos
 
