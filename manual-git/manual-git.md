@@ -43,8 +43,6 @@
 
 - cherry-pick
 
-- ertgergtae
-
 ## Setup y Configuración
 
 | Comando | Descripción |
