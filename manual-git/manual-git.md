@@ -1,7 +1,6 @@
-# Manual Git
+# ![Imagen de Git](../assets/Git_icon.svg "Git") Manual Git
 
 Git es un sistema de control de versiones distribuido que permite realizar un seguimiento de los cambios en archivos a lo largo del tiempo, coordinar el trabajo con otras personas y revertir los archivos a estados anteriores cuando sea necesario. Es una herramienta esencial para cualquier desarrollador de software o equipo de desarrollo colaborativo.
-
 ## Índice
 1. [Setup y Configuración](#setup-y-configuración)
    - git
