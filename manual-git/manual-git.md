@@ -1,8 +1,6 @@
 # Manual Git
 
----
-
-## [Setup y Configuración](#setup-y-configuración)
+## [Setup y Configuración](#setup-y-configuración-1)
 
 - git
 - config
