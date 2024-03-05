@@ -68,3 +68,18 @@ Git es un sistema de control de versiones distribuido que permite realizar un se
 | `git diff`|Muestra los cambios entre el árbol de trabajo y el índice o un árbol, los cambios resultantes de una fusión y los cambios entre dos archivos en disco.|
 | `git commit`|Crea un nuevo commit que contiene el contenido actual del índice y el mensaje de registro dado que describe los cambios.|
 | `git reset`|Deshace commits que no han sido enviados a un repositorio remoto. Puede usarse para eliminar commits que contienen errores o que ya no son necesarios.|
+
+## Compartir y actualizar
+
+| Comando | Descripción |
+|---------|-------------|
+| `git fetch`|Obtiene ramas y/o etiquetas de uno o más repositorios, junto con los objetos necesarios para completar sus historiales.|
+| `git pull`|Incorpora los cambios de un repositorio remoto a la rama actual. Si la rama actual está por detrás de la remota, entonces por defecto adelantará la rama actual para que coincida con la remota.|
+| `git push`|Actualiza refs remotas usando refs locales, mientras envía los objetos necesarios para completar las refs dadas.|
+| `git remote`|Gestiona el conjunto de repositorios ("remotos") cuyas ramas rastrea.|
+
+## Patching
+
+| Comando | Descripción |
+|---------|-------------|
+| `git cherry-pick`|Dados uno o más commits existentes, aplica el cambio que cada uno introduce, registrando un nuevo commit para cada uno.|
