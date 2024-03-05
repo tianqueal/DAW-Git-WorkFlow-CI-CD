@@ -49,4 +49,4 @@
 
 | Comando | Descripción |
 |---------|-------------|
-| `git -v` | Muestra la versión actual de Git instalada en el sistema |
+| `git -v` `git --version`|Muestra la versión actual de Git instalada en el sistema|
