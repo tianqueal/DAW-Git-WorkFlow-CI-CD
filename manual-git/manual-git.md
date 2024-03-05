@@ -48,3 +48,10 @@
 | Comando | Descripción |
 |---------|-------------|
 | `git -v` `git --version`|Muestra la versión actual de Git instalada en el sistema|
+
+## Obtención y creación de proyectos
+
+| Comando | Descripción |
+|---------|-------------|
+| `git init`|Crea un repositorio Git vacío. Se creará una rama inicial sin ningún commit.|
+| `git clone`|Clona un repositorio en un directorio nuevo creado y crea ramas de seguimiento remoto para cada rama en el repositorio clonado.|
