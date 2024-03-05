@@ -3,7 +3,7 @@
 ## Setup and Config
 
 - git
--config
+- config
 
 ## Getting and Creating Projects
 
@@ -44,7 +44,7 @@
 - cherry-pick
 
 
-# Setup y Configuración
+## Setup y Configuración
 
 | Comando | Descripción |
 |---------|-------------|
