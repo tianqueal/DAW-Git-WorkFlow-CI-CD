@@ -1,6 +1,8 @@
 # Manual Git
 
-## Setup and Config
+---
+
+## [Setup y Configuración](#setup-y-configuración)
 
 - git
 - config
@@ -42,6 +44,8 @@
 ## Patching
 
 - cherry-pick
+
+---
 
 ## Setup y Configuración
 
