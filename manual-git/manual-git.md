@@ -2,48 +2,43 @@
 
 Git es un sistema de control de versiones distribuido que permite realizar un seguimiento de los cambios en archivos a lo largo del tiempo, coordinar el trabajo con otras personas y revertir los archivos a estados anteriores cuando sea necesario. Es una herramienta esencial para cualquier desarrollador de software o equipo de desarrollo colaborativo.
 
-## [Setup y Configuración](#setup-y-configuración-1)
+## Índice
+1. [Setup y Configuración](#setup-y-configuración)
+   - git
+   - config
 
-- git
-- config
+2. [Obtención y creación de proyectos](#obtención-y-creación-de-proyectos)
+   - init
+   - clone
 
-## [Obtención y creación de proyectos](#obtención-y-creación-de-proyectos-1)
+3. [Instantáneas básicas](#instantáneas-básicas)
+   - add
+   - status
+   - diff
+   - commit
+   - reset
 
-- init
-- clone
+4. [Ramificación y fusión](#ramificación-y-fusión)
+   - branch
+   - checkout
+   - switch
+   - merge
+   - log
+   - tag
+   - stash
 
-## [Instantáneas básicas](#instantáneas-básicas-1)
+5. [Compartir y actualizar](#compartir-y-actualizar)
+   - fetch
+   - pull
+   - push
+   - remote
+6. [Inspección y comparación](#inspección-y-comparación)
+   - diff
+  
+8. [Patching](#patching)
+   - cherry-pick
 
-- add
-- status
-- diff
-- commit
-- reset
-
-## [Ramificación y fusión](#ramificación-y-fusión-1)
-
-- branch
-- checkout
-- switch
-- merge
-- log
-- tag
-- stash
-
-## [Compartir y actualizar](#compartir-y-actualizar-1)
-
-- fetch
-- pull
-- push
-- remote
-
-## [Inspección y comparación](#inspección-y-comparación-1)
-
-- diff
-
-## [Patching](#patching-1)
-
-- cherry-pick
+---
 
 ## Setup y Configuración
 
