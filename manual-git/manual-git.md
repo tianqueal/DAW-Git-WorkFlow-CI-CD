@@ -42,3 +42,10 @@
 ## Patching
 
 - cherry-pick
+
+
+# Setup y Configuración
+
+| Comando | Descripción |
+|---------|-------------|
+| `git -v` | Muestra la versión actual de Git instalada en el sistema |
