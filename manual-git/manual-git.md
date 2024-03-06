@@ -56,7 +56,7 @@
 
 Git se considera uno de los mejores sistemas de control de versiones por varias razones. Se distribuye para que todos los desarrolladores tengan una copia completa del historial de cambios localmente. La gestión de sucursales es rápida y eficiente, y se conserva el historial completo, lo que facilita la detección de cambios y la reversión a versiones anteriores. 
 
-Utilice un sistema hash para garantizar la integridad de los datos. Es compatible con una variedad de plataformas y tiene una comunidad activa con documentación extensa. Además, existen herramientas y servicios complementarios como GitHub, GitLab y Bitbucket que amplían la funcionalidad. En conjunto, estas características hacen de Git una opción sólida y versátil para el control de versiones en proyectos de desarrollo. 
+Existen herramientas y servicios complementarios como GitHub, GitLab y Bitbucket que amplían la funcionalidad. En conjunto, estas características hacen de Git una opción sólida y versátil para el control de versiones en proyectos de desarrollo. 
 
 ### Funcionamiento externo de Git
 
