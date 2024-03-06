@@ -64,7 +64,6 @@ Cuando se inicia Git por primera vez en un sistema, es importante **configurar e
 |---------|-------------|
 | `git add`|Este comando actualiza el índice utilizando el contenido actual que se encuentra en el árbol de trabajo, para preparar el contenido preparado para el siguiente commit.|
 | `git status`|Muestra las rutas que tienen diferencias entre el archivo índice y el commit HEAD actual y las rutas que tienen diferencias entre el árbol de trabajo y el archivo índice.|
-| `git diff`|Muestra los cambios entre el árbol de trabajo y el índice o un árbol, los cambios resultantes de una fusión y los cambios entre dos archivos en disco.|
 | `git commit`|Crea un nuevo commit que contiene el contenido actual del índice y el mensaje de registro dado que describe los cambios.|
 | `git reset`|Deshace commits que no han sido enviados a un repositorio remoto. Puede usarse para eliminar commits que contienen errores o que ya no son necesarios.|
 
