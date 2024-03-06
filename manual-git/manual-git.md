@@ -1,23 +1,31 @@
 # ![Imagen de Git](../assets/Git_icon.svg "Git") Manual Git
 
-Git es un sistema de control de versiones distribuido que permite realizar un seguimiento de los cambios en archivos a lo largo del tiempo, coordinar el trabajo con otras personas y revertir los archivos a estados anteriores cuando sea necesario. Es una herramienta esencial para cualquier desarrollador de software o equipo de desarrollo colaborativo.
+
 ## Índice
-1. [Setup y Configuración](#setup-y-configuración)
+
+1. [Sistema de control de versiones](#sistema-de-control-de-versiones)
+
+2. [¿Qué es Git?](#qué-es-git)
+   - [Git como la mejor alternativa](#git-como-la-mejor-alternativa)
+   - [Funcionamiento externo de Git](#funcionamiento-externo-de-git)
+   - [Extructura interna de Git](#extructura-interna-de-git)
+  
+3. [Setup y Configuración](#setup-y-configuración)
    - git
    - config
 
-2. [Obtención y creación de proyectos](#obtención-y-creación-de-proyectos)
+4. [Obtención y creación de proyectos](#obtención-y-creación-de-proyectos)
    - init
    - clone
 
-3. [Instantáneas básicas](#instantáneas-básicas)
+5. [Instantáneas básicas](#instantáneas-básicas)
    - add
    - status
    - diff
    - commit
    - reset
 
-4. [Ramificación y fusión](#ramificación-y-fusión)
+6. [Ramificación y fusión](#ramificación-y-fusión)
    - branch
    - checkout
    - switch
@@ -26,18 +34,30 @@ Git es un sistema de control de versiones distribuido que permite realizar un se
    - tag
    - stash
 
-5. [Compartir y actualizar](#compartir-y-actualizar)
+7. [Compartir y actualizar](#compartir-y-actualizar)
    - fetch
    - pull
    - push
    - remote
-6. [Inspección y comparación](#inspección-y-comparación)
+8. [Inspección y comparación](#inspección-y-comparación)
    - diff
   
-8. [Patching](#patching)
+9. [Patching](#patching)
    - cherry-pick
 
 ---
+
+## Sistema de control de versiones
+
+
+## ¿Qué es Git?
+
+### Git como la mejor alternativa
+
+### Funcionamiento externo de Git
+
+### Extructura interna de Git
+
 
 ## Setup y Configuración
 
