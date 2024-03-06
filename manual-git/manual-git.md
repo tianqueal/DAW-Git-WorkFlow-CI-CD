@@ -1,5 +1,6 @@
 # ![Imagen de Git](../assets/Git_icon.svg "Git") Manual Git
 
+Git es un sistema de control de versiones distribuido que permite realizar un seguimiento de los cambios en archivos en un periodo de tiempo, coordinar el trabajo con otras personas y revertir los archivos a estados anteriores cuando sea necesario.
 
 ## Índice
 
@@ -49,6 +50,8 @@
 
 ## Sistema de control de versiones
 
+Un sistema de control de versiones (VCS) es una herramienta que ayuda a gestionar y controlar los cambios realizados en archivos y carpetas a lo largo del tiempo en un proyecto de software u otro tipo de desarrollo. 
+Estos sistemas registran cada modificación realizada en los archivos, lo que permite a los desarrolladores rastrear quién hizo qué cambio, cuándo se realizó y por qué.
 
 ## ¿Qué es Git?
 
@@ -59,6 +62,14 @@ Git se considera uno de los mejores sistemas de control de versiones por varias 
 Existen herramientas y servicios complementarios como GitHub, GitLab y Bitbucket que amplían la funcionalidad. En conjunto, estas características hacen de Git una opción sólida y versátil para el control de versiones en proyectos de desarrollo. 
 
 ### Funcionamiento externo de Git
+
+Git puede gestionarse de varias maneras desde una perspectiva externa al sistema mismo. 
+
+1. **Terminal de comandos**: Los usuarios pueden interactuar con Git a través de la línea de comandos utilizando una variedad de comandos específicos de Git. Estos comandos permiten realizar operaciones como clonar un repositorio, agregar y confirmar cambios, fusionar ramas, crear etiquetas y más. 
+
+2. **Interfaces gráficas de usuario (GUI)**: Existen diversas herramientas que proporcionan interfaces gráficas para gestionar repositorios Git de forma visual. Estas herramientas, como GitKraken, Sourcetree y GitHub Desktop, ofrecen una forma más accesible de realizar operaciones de control de versiones sin necesidad de utilizar la línea de comandos. 
+
+3. **Integración en herramientas de desarrollo**: Muchas herramientas de desarrollo, como Visual Studio Code, IntelliJ IDEA y Eclipse, ofrecen integración nativa con Git. Esto permite a los desarrolladores realizar operaciones de control de versiones directamente desde el entorno de desarrollo, lo que facilita la gestión del código fuente dentro del flujo de trabajo de desarrollo.
 
 ### Extructura interna de Git
 
