@@ -54,10 +54,48 @@
 
 ### Git como la mejor alternativa
 
+Git se considera uno de los mejores sistemas de control de versiones por varias razones. Se distribuye para que todos los desarrolladores tengan una copia completa del historial de cambios localmente. La gestión de sucursales es rápida y eficiente, y se conserva el historial completo, lo que facilita la detección de cambios y la reversión a versiones anteriores. 
+
+Utilice un sistema hash para garantizar la integridad de los datos. Es compatible con una variedad de plataformas y tiene una comunidad activa con documentación extensa. Además, existen herramientas y servicios complementarios como GitHub, GitLab y Bitbucket que amplían la funcionalidad. En conjunto, estas características hacen de Git una opción sólida y versátil para el control de versiones en proyectos de desarrollo. 
+
 ### Funcionamiento externo de Git
 
 ### Extructura interna de Git
 
+1. HEAD:
+   - Puntero al último commit en la rama actual.
+
+2. Objects:
+   - Almacena objetos fundamentales de Git como blobs (datos), trees (estructuras de directorios) y commits.
+
+3. Refs:
+   - Contiene referencias a commits específicos, ramas y etiquetas.
+
+4. Config:
+   - Archivo que guarda la configuración del repositorio.
+
+5. Hooks:
+   - Carpeta que contiene scripts ejecutados en eventos específicos de Git.
+
+6. Index:
+   - Archivo que actúa como área de preparación para los cambios antes de realizar un commit.
+
+7. Logs:
+   - Almacena información de registro.
+
+8. Configuración Global y Local:
+   - Archivos que contienen configuraciones a nivel global y local respectivamente.
+
+9. .gitignore:
+   - Archivo que especifica patrones de archivos/directorios que Git debe ignorar al rastrear cambios. Se utiliza para            excluir archivos temporales, compilados, logs, etc.
+  
+     ~~~
+      # Ignorar directorios de dependencias o entornos virtuales
+      node_modules/
+      venv/
+     ~~~
+
+La carpeta .git junto con .gitignore son esenciales para el funcionamiento interno y la organización del repositorio en Git.
 
 ## Setup y Configuración
 
