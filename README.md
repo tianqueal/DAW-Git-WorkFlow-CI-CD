@@ -1,3 +1,5 @@
-# DAW-Manual-Git_borrador
+# Guia Git, Workflow y CI/CD
 
-- [manual git](/manual-git/indice.md)
+## Índice
+
+1. [Manual de Git](./manual-git/manual-git.md)
