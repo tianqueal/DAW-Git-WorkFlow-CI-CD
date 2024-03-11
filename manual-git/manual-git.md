@@ -176,6 +176,6 @@ El comando `git diff` puede mostrar las diferencias entre la zona de trabajo y e
 
 ## Patching
 
-| Comando | Descripción |
-|---------|-------------|
-| `git cherry-pick`|Dados uno o más commits existentes, aplica el cambio que cada uno introduce, registrando un nuevo commit para cada uno.|
+| Comando | Descripción | Ejemplo |
+|---------|-------------| --------|
+| `git cherry-pick`|Dados uno o más commits existentes, aplica el cambio que cada uno introduce, registrando un nuevo commit para cada uno.| git cherry-pick nombreCommit |
