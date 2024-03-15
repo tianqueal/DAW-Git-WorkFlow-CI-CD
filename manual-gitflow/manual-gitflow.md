@@ -13,8 +13,6 @@
 3. [Funcionamiento de GitFlow](#funcionamiento-de-gitflow)
 
 4. [Comandos de GitFlow](#comandos-de-gitflow)
-   - ...
-   - ...
 
 ---
 
