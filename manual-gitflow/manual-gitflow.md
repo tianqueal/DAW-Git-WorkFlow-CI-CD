@@ -48,4 +48,6 @@ El flujo de trabajo típico de GitFlow implica varias ramas adicionales:
 
 Este flujo de trabajo permite un desarrollo estructurado, con versiones estables en `master`, desarrollo continuo en `develop`, y características y correcciones de errores gestionadas de forma ordenada en ramas separadas.
 
+![Imagen de las ramas GitFlow](../assets/git-flow-works.svg "Ramas GitFlow")
+
 ## Comandos de GitFlow
