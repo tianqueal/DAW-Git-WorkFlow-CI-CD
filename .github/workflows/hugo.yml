@@ -47,10 +47,14 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Create Hugo Site
+        run: hugo new site myhugosite
+      - name: Copy Config
+        run: cp ./config.toml ./myhugosite
       - name: Install Doks theme
-        run: git clone --depth 1 https://github.com/h-enk/doks.git themes/doks
+        run: git clone --depth 1 https://github.com/h-enk/doks.git myhugosite/themes/doks
+      - name: Install Node.js dependencies
+        run: "[[ -f myhugosite/package-lock.json || -f myhugosite/npm-shrinkwrap.json ]] && npm ci --prefix myhugosite || true"
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -63,7 +67,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./myhugosite/public
 
   # Deployment job
   deploy:
