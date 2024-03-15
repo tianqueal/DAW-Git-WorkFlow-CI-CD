@@ -17,8 +17,25 @@
 ---
 
 ## ¿Qué es GitFlow?
+   Gitflow es un modelo alternativo de creación de ramas en Git en el que se utilizan ramas de función y varias ramas principales.
+
+   1.1 Ventajas:
+   - Proporciona una estructura clara para el desarrollo y la gestión de versiones.
+   - Facilita la colaboración en equipos grandes.
+   - Permite la implementación de nuevas características sin afectar la rama principal hasta que estén listas.
 
 ## Workflows alternativos
+   1.1 GitHub Flow:
+   - Enfoque simplificado que se centra en despliegues continuos y entregas rápidas.
+   - Ideal para proyectos pequeños o equipos que desean un proceso de desarrollo más ágil y continuo.
+
+   1.2 GitLab Flow:
+   - Similar a GitHub Flow pero con una rama adicional llamada "production".
+   - Adecuado para proyectos que requieren una etapa de preproducción antes de la implementación en producción.
+
+   1.3 GitLab CI/CD:
+   - Utiliza GitLab para la integración continua y la entrega continua (CI/CD).
+   - Proporciona una forma automatizada y controlada de implementar y entregar cambios de manera continua.
 
 ## Funcionamiento de GitFlow
 
