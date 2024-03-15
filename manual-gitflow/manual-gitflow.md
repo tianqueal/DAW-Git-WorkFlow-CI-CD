@@ -2,7 +2,7 @@
 
 ## Índice
 
-1. [¿Qué es GitFlow](#qué-es-gitflow)
+1. [¿Qué es GitFlow?](#qué-es-gitflow)
    - [Ventajas, necesidades y motivos](ventajas-necesidades-y-motivos)
 
 2. [Workflows alternativos](#workflows-alternativos)
@@ -51,3 +51,46 @@ Este flujo de trabajo permite un desarrollo estructurado, con versiones estables
 ![Imagen de las ramas GitFlow](../assets/git-flow-works.svg "Ramas GitFlow")
 
 ## Comandos de GitFlow
+
+1. **Inicializar GitFlow en un repositorio**
+   ~~~
+   git flow init
+   ~~~
+   Este comando inicializa GitFlow en el repositorio actual, creando las ramas `master` y `develop` y configurando el flujo de trabajo.
+   
+2. **Crear una nueva rama de característica (feature)**
+   ~~~
+   git flow feature start <nombre_caracteristica>
+   ~~~
+   Crea una nueva rama de característica basada en `develop`, donde puedes trabajar en una nueva funcionalidad.
+   
+3. **Finalizar una característica**
+   ~~~
+   git flow feature finish <nombre_caracteristica>
+   ~~~
+   Fusiona la rama de característica en `develop` y la elimina.
+   
+4. **Crear una nueva rama de lanzamiento (release)**
+   ~~~
+   git flow release start <nombre_version>
+   ~~~
+   Crea una nueva rama de lanzamiento basada en `develop`, donde puedes realizar correcciones finales antes del lanzamiento.
+
+5. **Finalizar un lanzamiento**
+   ~~~
+   git flow release finish <nombre_version>
+   ~~~
+   Fusiona la rama de lanzamiento en `master` y `develop`, estableciendo una nueva versión. También elimina la rama de lanzamiento.
+
+6. **Crear una nueva rama de corrección de errores (hotfix)**
+   ~~~
+   git flow hotfix start <nombre_correccion>
+   ~~~
+   Crea una nueva rama de corrección de errores basada en `master`, para abordar problemas críticos en producción.
+
+7. **Finalizar una corrección de errores**
+   ~~~
+   git flow hotfix finish <nombre_correccion>
+   ~~~
+   Fusiona la rama de corrección de errores en `master` y `develop`, y elimina la rama de corrección de errores.
+   
